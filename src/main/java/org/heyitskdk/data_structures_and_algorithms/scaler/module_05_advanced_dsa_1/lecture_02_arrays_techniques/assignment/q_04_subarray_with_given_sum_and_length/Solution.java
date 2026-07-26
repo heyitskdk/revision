@@ -1,4 +1,4 @@
-package org.heyitskdk.data_structures_and_algorithms.scaler.module_05_advanced_dsa_1.assignment.q_04_subarray_with_given_sum_and_length;
+package org.heyitskdk.data_structures_and_algorithms.scaler.module_05_advanced_dsa_1.lecture_02_arrays_techniques.assignment.q_04_subarray_with_given_sum_and_length;
 
 public class Solution {
     public static int solve(int[] A, int B, int C) {

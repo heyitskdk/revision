@@ -1,4 +1,4 @@
-package org.heyitskdk.data_structures_and_algorithms.scaler.module_05_advanced_dsa_1.assignment.q_01_range_sum_query;
+package org.heyitskdk.data_structures_and_algorithms.scaler.module_05_advanced_dsa_1.lecture_02_arrays_techniques.assignment.q_01_range_sum_query;
 
 import java.util.Arrays;
 

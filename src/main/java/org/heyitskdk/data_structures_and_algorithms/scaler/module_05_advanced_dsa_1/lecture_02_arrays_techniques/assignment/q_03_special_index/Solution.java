@@ -1,4 +1,4 @@
-package org.heyitskdk.data_structures_and_algorithms.scaler.module_05_advanced_dsa_1.assignment.q_03_special_index;
+package org.heyitskdk.data_structures_and_algorithms.scaler.module_05_advanced_dsa_1.lecture_02_arrays_techniques.assignment.q_03_special_index;
 
 public class Solution {
     public int solve(int[] A) {

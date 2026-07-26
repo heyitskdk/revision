@@ -1,0 +1,98 @@
+# Equilibrium Index of an Array
+
+## Problem Description
+
+You are given an array `A` of integers of size `N`.
+
+Your task is to find the **equilibrium index** of the given array.
+
+An equilibrium index is an index such that the sum of elements at lower indices is equal to the sum of elements at higher indices.
+
+If there are no elements at lower indices or at higher indices, then the corresponding sum is considered to be `0`.
+
+**Note:**
+
+- Array indexing starts from `0`.
+- If there is no equilibrium index, return `-1`.
+- If there are multiple equilibrium indices, return the smallest index.
+
+## Problem Constraints
+
+```text
+1 <= N <= 10^5
+-10^5 <= A[i] <= 10^5
+```
+
+## Input Format
+
+```text
+The first argument is an array A.
+```
+
+## Output Format
+
+```text
+Return the equilibrium index of the given array.
+
+If no such index exists, return -1.
+```
+
+## Example Input
+
+### Input 1
+
+```text
+A = [-7, 1, 5, 2, -4, 3, 0]
+```
+
+### Input 2
+
+```text
+A = [1, 2, 3]
+```
+
+## Example Output
+
+### Output 1
+
+```text
+3
+```
+
+### Output 2
+
+```text
+-1
+```
+
+## Example Explanation
+
+### Explanation 1
+
+```text
+Index   Left Sum   Right Sum
+0       0          7
+1      -7          6
+2      -6          1
+3      -1         -1
+4       1          3
+5      -3          0
+6       0          0
+
+Index 3 is an equilibrium index because:
+
+A[0] + A[1] + A[2] = A[4] + A[5] + A[6]
+```
+
+### Explanation 2
+
+```text
+Index   Left Sum   Right Sum
+0       0          5
+1       1          3
+2       3          0
+
+No index has equal left and right sums.
+
+Hence, return -1.
+```
