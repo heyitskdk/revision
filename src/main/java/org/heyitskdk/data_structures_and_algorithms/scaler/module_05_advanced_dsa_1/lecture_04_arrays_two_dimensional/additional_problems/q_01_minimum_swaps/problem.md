@@ -1,0 +1,57 @@
+# Minimum Swaps
+
+## Problem Description
+
+Given an array of integers A and an integer B, find and return the minimum number of swaps required to bring all the numbers less than or equal to B together.
+
+Note: It is possible to swap any two elements, not necessarily consecutive.
+
+## Problem Constraints
+
+```text
+1 <= length of the array <= 100000
+-10^9 <= A[i], B <= 10^9
+```
+
+## Input Format
+
+```text
+The first argument given is the integer array A.
+The second argument given is the integer B.
+```
+
+## Output Format
+
+```text
+Return the minimum number of swaps.
+```
+
+## Example Input
+
+### Input 1:
+
+```text
+A = [1, 12, 10, 3, 14, 10, 5]
+B = 8
+```
+
+### Input 2:
+
+```text
+A = [5, 17, 100, 11]
+B = 20
+```
+
+## Example Output
+
+### Output 1:
+
+```text
+2
+```
+
+### Output 2:
+
+```text
+1
+```
