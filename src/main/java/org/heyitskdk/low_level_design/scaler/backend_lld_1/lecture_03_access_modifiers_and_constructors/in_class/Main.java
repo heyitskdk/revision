@@ -13,5 +13,20 @@ public class Main {
         Student student3 = new Student(student2);
 
         System.out.println("debug");
+
+        // static run
+        EncapsulationPractice.main(new String[]{});
+
+        // client run
+        EncapsulationPractice person = new EncapsulationPractice("Greggory Match", 1974);
+        System.out.println(person);
+
+        // static practice
+        StaticPractice practice = new StaticPractice();
+
+        // bad way
+        practice.getObjectCount();
+        // standard way
+        StaticPractice.getObjectCount();
     }
 }
